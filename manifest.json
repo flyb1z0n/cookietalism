@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Cookietalism",
+  "version": "1.0",
+  "description": "Cookie + capitalism = Cookietalism",
+  "content_scripts": [
+    {
+      "matches": ["https://orteil.dashnet.org/cookieclicker/"],
+      "css" : ["style.css"],
+      "js": ["cookietalism.js"]
+    }
+  ],
+  "web_accessible_resources" : ["/inject.js"]
+}

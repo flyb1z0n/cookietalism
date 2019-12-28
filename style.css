@@ -1,0 +1,4 @@
+div[optimal]
+{
+    filter: sepia(100%) hue-rotate(90deg) saturate(400%) !important
+}
